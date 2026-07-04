@@ -1,6 +1,6 @@
-# Emotion Detector
+# Final Project: Emotion Detector
 
-An AI-based emotion detection web application built with Flask and IBM Watson Natural Language Understanding.
+This is the Final Project for the course: an AI-based emotion detection web application built with Flask and IBM Watson Natural Language Understanding.
 
 ## Project Structure
 
