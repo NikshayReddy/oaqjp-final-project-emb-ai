@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: EmotionDetection
+Version: 0.1.0
+Summary: Emotion detection web app using Watson NLP
+Author: Emotion Detector
+Author-email: noreply@example.com
+Requires-Python: >=3.8
+Requires-Dist: Flask>=2.0
+Requires-Dist: ibm-watson>=6.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
