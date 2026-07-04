@@ -98,17 +98,17 @@ def _classify_with_fallback(text: str) -> Dict[str, Any]:
     }
 
 
-def emotion_detector(text: str) -> Dict[str, Any]:
+def emotion_detector(text_to_analyse: str) -> Dict[str, Any]:
     """Detect the dominant emotion from text.
 
     Returns a standardized response dictionary. If the text is blank, returns a 400 status.
     """
-    normalized_text = _normalize_text(text)
+    normalized_text = _normalize_text(text_to_analyse)
     if not normalized_text:
         return {
             "status_code": 400,
             "error": "Input text cannot be blank.",
-            "text": text,
+            "text": text_to_analyse,
         }
 
     try:
